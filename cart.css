@@ -1,0 +1,31 @@
+/* (A) ENTIRE PAGE */
+
+#cart-wrap {
+    font-family: arial, sans-serif;
+    display: flex;
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+#cart-products,
+#cart-items {
+    box-sizing: border-box;
+    padding: 50px;
+}
+
+#cart-products {
+    width: 70%;
+}
+
+#cart-items {
+    width: 30%;
+}
+
+button.cart {
+    padding: 50px;
+    border: 0;
+    background: #ff4316;
+    color: #fff;
+    font-weight: 700;
+    cursor: pointer;
+}
